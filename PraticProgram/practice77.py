@@ -69,6 +69,28 @@ match input:
         print("wrong input")
 print("=======================")
 
+number=4
+
+print(number , "is Even no" if number % 2== 0 else "odd")
+
+print("=======================")
+
+number=2
+print(number ,"id Odd no" if number % 3==0 else "Even")
+
+print("=======================")
+
+input=10
+
+match input:
+    case 10:
+        print("Addition =",10+20)
+print("=====================")
+
+str="Akshay"
+print("Name is =",str if str=="Akshay" else "wrong name")
+
+
 
 
 
