@@ -1,19 +1,20 @@
 print("=========Function without Parameter============")
 
-def method1():
+def Func1():
     print("Function start")
     print("Hello Akshay")
     print("Hello Python")
     print("Function End")
-method1()
-method1()
+Func1()
+Func1()
 
 print("=========Function without Parameter(Add)============")
 
-def method2():
+def Additions():
     print("Addition =",10+20)
 
-method2()
+Additions()
+Additions()
 print("=========Function without Parameter(Add)============")
 def Addition():
     num1=20

@@ -13,7 +13,7 @@ def mul():
     total=mul1*mul2
     print("Multiplication of 2 no =",total)
 mul()
-print("=======No print from 1 to 10(withoutparamFunction=========")
+print("=======No print from 1 to 10(withoutparamFunction)=========")
 def numprint():
     for i in range(1,11):
         print(i)
