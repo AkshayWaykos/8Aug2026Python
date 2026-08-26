@@ -20,7 +20,8 @@ print("------------------")
 EmpInfo(EmpName="Sagar",EmpID=3219)
 print("===============================================================")
 
+def StudentDetails(name,roll=12):
+    print("Student Name =",name,"-->" ,"Student roll=",roll)
 
-
-
-
+StudentDetails(name="Akshay")
+StudentDetails(name="Sagar",roll=29)
