@@ -3,6 +3,7 @@ print("============Function With Parameter =================")
 def studentname(fn,ln):
     print("Student Name =",fn)
     print("Student LastName =",ln)
+
 studentname("Akshay","waykos")
 
 print("=========Function with Parameter(Addition)============")

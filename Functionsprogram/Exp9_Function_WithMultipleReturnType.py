@@ -48,30 +48,28 @@ print("Multiplication of 2 no =",total2)
 
 print("=======================================================")
 
+def multi(num1,num2):
+    mul=num1*num2
+    add=num1+num2
+    return mul,add
 
+a,m=multi(20,20)
 
+print("Addition =",a)
+print("Multiplication=",m)
 
+print("===========Method without param===========")
 
+def method1():
+    a=5
+    b=10
+    print("Addition =",a+b)
+method1()
+print("===========Method with param===========")
 
+def method2(x,y):
+    print("Multiplication = ",x*y)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+method2(5,5)
 
 
