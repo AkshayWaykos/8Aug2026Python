@@ -31,7 +31,7 @@ class Demo1():
 d1=Demo1()
 d.mul()
 
-print("======Ex3 - User Define Constructor(without Parameter)===========")
+print("======Ex3-User Define Constructor(Without Parameter)===========")
 
 class Demo3():
 
@@ -45,14 +45,7 @@ class Demo3():
 d3=Demo3()
 d3.add1()
 
-
-
-
-
-
-
-
-
+print("===============================================================")
 
 
 
