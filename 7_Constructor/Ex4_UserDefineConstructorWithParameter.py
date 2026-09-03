@@ -1,6 +1,6 @@
 print("====Ex1_User Define Constructor(with Parameter)====")
 
-class Sample():
+class Sample:
     def __init__(self,x,y):
         self.x=x
         self.y=y
@@ -13,7 +13,7 @@ s.add()
 
 print("====Ex2_User Define Constructor(with Parameter)====")
 
-class Sample2():
+class Sample2:
     def __init__(self,a,b):
         self.a=a
         self.b=b
@@ -24,7 +24,7 @@ s2=Sample2(10,20)
 s2.add()
 print("====Ex2_User Define Constructor(with Parameter)====")
 
-class Calculation():
+class Calculation:
 
     def __init__(self,x,y):
         self.x=x
@@ -38,7 +38,7 @@ C1.addition()
 
 print("====Ex3_User Define Constructor(With Parameter)====")
 
-class Math():
+class Math:
     def __init__(self):
         pass
     def mul(self,s,t):
@@ -49,7 +49,7 @@ M.mul(20,20)
 
 print("====Ex4_User Define Constructor(With Parameter)====")
 
-class StudentName():
+class StudentName:
 
     def __init__(self,name,age):
         self.name=name
