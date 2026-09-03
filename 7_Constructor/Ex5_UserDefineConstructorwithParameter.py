@@ -1,6 +1,6 @@
 print("====User Define constructor with Parameter===")
 
-class Sample():
+class Sample:
     def __init__(self,name,age,roll,x,y,z):
         self.name = name
         self.age = age

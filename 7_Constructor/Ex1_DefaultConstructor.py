@@ -1,7 +1,7 @@
 print("=====Ex1 -Default Constructor(withoutParameter)=======")
 
 
-class Sample1():
+class Sample1:
     #use 1 - copy all the member of class into object.
     #Default Constructor
     #def __init__(self):
@@ -18,7 +18,7 @@ S1.addition()
 print("=====Ex2 -Default Constructor(withoutParameter)=======")
 
 
-class Sample2():
+class Sample2:
 
     def multiplication(self):
         x,y=20,20
@@ -38,7 +38,7 @@ s3.substraction(20,10)
 
 print("=====Ex4 -Default Constructor(With Parameter)=======")
 
-class Sample4():
+class Sample4:
     def div(self,num1,num2):
         print("Division =",num1/num2)
 s4=Sample4()

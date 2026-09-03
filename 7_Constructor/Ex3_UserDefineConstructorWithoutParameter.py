@@ -1,6 +1,6 @@
 print("======Ex1 - User Define Constructor(without Parameter)===============")
 
-class Demo():
+class Demo:
 
     def __init__(self):
         self.a=10
@@ -20,7 +20,7 @@ d.mul()
 
 print("======Ex2 - User Define Constructor(without Parameter)===========")
 
-class Demo1():
+class Demo1:
     def __init__(self):
         self.a=10
         self.b=20
@@ -33,7 +33,7 @@ d.mul()
 
 print("======Ex3-User Define Constructor(Without Parameter)===========")
 
-class Demo3():
+class Demo3:
 
     def __init__(self):
         self.x=5

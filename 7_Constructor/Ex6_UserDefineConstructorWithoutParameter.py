@@ -1,6 +1,6 @@
 print("======Ex1-User Define Constructor=======")
 
-class StudentDetails():
+class StudentDetails:
     def __init__(self):
         self.name ="Akshay"
         self.age  =31

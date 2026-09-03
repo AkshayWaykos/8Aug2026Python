@@ -2,7 +2,7 @@ print("===Ex1 - User Define Constructor(withoutParameter)===")
 
 #user defined constructor
 #use1: copy all the members of class into object
-class Sample1():
+class Sample1:
 
     def __init__(self):
         print("Executing User Define Constructor")
@@ -18,7 +18,7 @@ s1.m2()
 
 print("===Ex2 - User Define Constructor(withParameter)===")
 
-class studentInfo():
+class studentInfo:
 
     def __init__(self,name):
         print("Running user defined constructor=",name)
@@ -27,7 +27,7 @@ si=studentInfo("Akshay")
 
 print("===Ex3 - User Define Constructor(without Parameter)===")
 
-class Sample2():
+class Sample2:
 
     def __init__(self):
         self.a=10
