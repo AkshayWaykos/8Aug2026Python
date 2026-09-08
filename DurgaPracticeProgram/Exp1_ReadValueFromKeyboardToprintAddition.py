@@ -6,7 +6,11 @@ print("===== Take input from Keyboard to perform Addition ======")
 
 x=input('Enter num1 =')
 y=input('Enter num2 =')
-print("Addition of 2 no =" + str(int (x)+int (y)))
+print("Addition of 2 no =" , str(int (x)+int (y)))
+
+name=input("Student Name=")
+age=input("Student Age =")
+print("Student Info =" , str( name) , str( age))
 
 print("===== Take input from Keyboard to perform Addition =====")
 
@@ -37,9 +41,3 @@ S=input("Enter no1 =")
 T=input("Enter no2 =")
 
 print("Addition no =",str(int(S)+int(T)))
-
-
-
-
-
-

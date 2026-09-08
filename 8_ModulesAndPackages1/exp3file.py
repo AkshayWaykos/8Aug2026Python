@@ -5,11 +5,11 @@ from exp1file import *               #Approach 2
 from exp1file import animal,fly      #Approach 1
 
 animal()
-fly()
+#fly()
 
 print("=========================================")
 #Module 2 Call
 
-from exp2file import animal,fly
+from exp2file import *
 animal()
 fly()

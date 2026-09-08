@@ -23,4 +23,18 @@ from ModulesAndPackages2 import Test3
 
 Test3.abc1()
 Test3.abc2()
+print("-------")
+
+Test3.Info3.m1(20,20)
+Test3.Info3.m2()
+
+print("================================")
+
+from Functionsprogram import  Exp1_Function_WithoutParameter
+
+Exp1_Function_WithoutParameter.Func1()
+Exp1_Function_WithoutParameterun.Additions()
+Exp1_Function_WithoutParameterun.Addition()
+Exp1_Function_WithoutParameterun.multiplication()
+
 

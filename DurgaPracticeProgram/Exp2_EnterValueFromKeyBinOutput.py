@@ -1,5 +1,3 @@
-from PraticProgram.Nestedif11 import password
-from Variable_DataType.datatype2 import EmpName
 
 print("=======Enter Joining & Exit Year Of Company========")
 
@@ -7,6 +5,11 @@ start=input("Enter joining Years of Company = ")
 end=input("Enter Exit year of company = ")
 
 print("Congratulation for " + str(int(end) - int(start)) +  " Year of service")
+
+born=input("Birth Year=")
+CYear=input("Enter Current Year=")
+print("Today Proper Age is = ",str(int(CYear)-int(born)))
+
 
 print("=======Enter Admission & Pass-out Year Of collage========")
 
