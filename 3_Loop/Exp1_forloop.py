@@ -1,8 +1,6 @@
 print("===========For Loop==================")
 
-
-
-for i in range(1, 10 ):    #without 3rd condition (incr/Decr)
+for i in range(1, 10 ):    #without 3rd condition (incr)
     print(i)
 
 print("======================================")
@@ -35,7 +33,18 @@ for k in range(1,10):
     print(f"{k}-1={k-1}")
 print("=====================================")
 
+for i in range (1,6):
+    print("#"* i)
 
+for j in range(6,0,-1):
+    print("#"*j)
+# print("=====================================")
+
+for i in range(1,11):
+    if i % 2 !=0:
+        print("Odd no=",i)
+    else:
+        print("Even No=",i)
 
 
 

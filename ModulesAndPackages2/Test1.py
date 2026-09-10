@@ -7,5 +7,5 @@ def mul(num1,num2):
 
 class Info1:
 
-    def method1(self,num1,num2):
-        print("Subtraction=",num1-num2)
+    def method1(num1,num2):
+        print("Subtraction=", num1 - num2)
