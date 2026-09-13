@@ -12,7 +12,6 @@ class Sample:
 S=Sample("Akshay",31)
 S.info()
 
-
 print("=========================")
 class Sample:
     def __init__(self,x,y):
@@ -26,4 +25,3 @@ S1=Sample(20,20)
 S1.multiplication()
 S2=Sample(30,30)
 S2.multiplication()
-

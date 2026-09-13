@@ -31,7 +31,7 @@ class CompanyDetails:
     def EmpInfo(self):
         print("Employee Name =",self.EmpName)
         print("Employee ID =",self.EmpId)
-        print("Comapny Name=",CompanyDetails.companyName)
+        print("Company Name=",CompanyDetails.companyName)
 
 c1=CompanyDetails("Akshay",1234)
 c1.EmpInfo()

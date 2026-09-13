@@ -1,5 +1,5 @@
 print("==============For loop=====================")
-for num in range(1,21,):
+for num in range(1,10,2):
     print(num) #print from 10 to 20
 print("==============For loop=====================")
 for i in range(1,11,1):
