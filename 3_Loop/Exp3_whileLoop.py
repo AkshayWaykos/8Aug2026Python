@@ -1,4 +1,4 @@
-print("=========print no from 100 to 150============")
+print("=========print no from 100 to 110============")
 
 num=100
 
