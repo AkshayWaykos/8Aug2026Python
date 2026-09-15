@@ -26,15 +26,3 @@ class Parent(Student):
 
 Parent.info1("Akshay",31)
 Parent.info1("Sagar",29)
-
-print("===Method Overriding with Non-Static-With Param=======")
-
-class Student1:
-    def samp1(self):
-        print("Non-static method from Student1 class")
-
-class Student2(Student1):
-    def samp1(self):
-        print("Non-static method from Student2 class")
-s1=Student2()
-s1.samp1()
