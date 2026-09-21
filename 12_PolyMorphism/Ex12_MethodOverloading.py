@@ -1,3 +1,5 @@
+from PraticProgram.practice88 import add
+
 print("======Method Overloading==========")
 
 class Demo1:
@@ -20,3 +22,12 @@ D2=Demo2()
 D2.info("Sagar")
 
 D2.info("Sagar",3219,900000)
+
+print("==========================================")
+class Demo1:
+
+    def add(self,n1=10,n2=20,n3=30,n4=40,n5=20):
+        print("Addition =",n1+n2+n3+n4+n5)
+
+D=Demo1()
+D.add()

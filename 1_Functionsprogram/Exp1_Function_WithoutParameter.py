@@ -11,17 +11,17 @@ Func1()
 print("=========Function without Parameter(Add)============")
 
 def Additions():
-    print("Addition =",10+20)
-
-Additions()
+    a=20
+    b=30
+    print("Addition =",a+b)
 Additions()
 print("=========Function without Parameter(Add)============")
-def Addition():
+def addition():
     num1=20
     num2=20
     sum=num1+num2
     print("Addition of two no=",sum)
-Addition()
+addition()
 print("=========Function without Parameter(mul)============")
 
 def multiplication():
