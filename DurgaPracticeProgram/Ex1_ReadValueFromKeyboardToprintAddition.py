@@ -16,7 +16,7 @@ print("===== Take input from Keyboard to perform Addition =====")
 
 #Example 2
 a= input('Enter num1 =')
-b= input("Enter no2 =")
+b= input("Enter num2 =")
 print("Addition of 2 no =" + str(int (a)+ int (b)))
 #
 print("===== Take input from Keyboard to perform Addition =====")
@@ -41,3 +41,5 @@ S=input("Enter no1 =")
 T=input("Enter no2 =")
 
 print("Addition no =",str(int(S)+int(T)))
+
+print("=========================================================")

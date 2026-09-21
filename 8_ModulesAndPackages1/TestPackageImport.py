@@ -40,13 +40,26 @@ D2.mul()
 
 Test4.Demo2.div(30,3)
 
-print("===============Functions Program=================")
+print("===============Test 5=====================")
+from ModulesAndPackages2 import Test5
 
-from Functionsprogram import  Exp1_Function_WithoutParameter
+Test5.fun11()
+Test5.fun22(20,20)
 
-Exp1_Function_WithoutParameter.Func1()
-Exp1_Function_WithoutParameterun.Additions()
-Exp1_Function_WithoutParameterun.Addition()
-Exp1_Function_WithoutParameterun.multiplication()
+d11= Test5.Demo11(20,20)
+d11.mul()
+
+Test5.Demo2.div(30,3)
+
+print("===============Test 7=====================")
+
+from ModulesAndPackages2 import Test7
+
+Test7.fun1()
+d=Test7.DDD()     #non static method
+d.mul()
+
+Test7.DDD.div()
+print("===============END=====================")
 
 

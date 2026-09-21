@@ -42,10 +42,3 @@ print("---------")
 c2=CompanyDetails("Rahul",8901)
 c2.EmpInfo()
 print("---------")
-
-
-
-
-
-
-

@@ -7,7 +7,7 @@ percentage=50.3       #float
 
 print("============================")
 
-#1 Variable_DataType usage
+#1 4_Variable_DataType usage
 print("studentName = ",studentName)
 print(studentName)
 print(type(studentName))
