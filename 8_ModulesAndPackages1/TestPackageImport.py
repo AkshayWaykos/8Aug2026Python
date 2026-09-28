@@ -51,15 +51,14 @@ d11.mul()
 
 Test5.Demo2.div(30,3)
 
-print("===============Test 7=====================")
+print("===============Functions Program=================")
 
-from ModulesAndPackages2 import Test7
+from Functionsprogram import  Exp1_Function_WithoutParameter
 
-Test7.fun1()
-d=Test7.DDD()     #non static method
-d.mul()
-
-Test7.DDD.div()
-print("===============END=====================")
-
+Exp1_Function_WithoutParameter.Func1()
+Exp1_Function_WithoutParameter.Additions()
+Exp1_Function_WithoutParameter.addition()
+Exp1_Function_WithoutParameter.multiplication()
+Exp1_Function_WithoutParameter.Dividation()
+Exp1_Function_WithoutParameter.Studentdetails()
 

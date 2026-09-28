@@ -18,3 +18,14 @@ if age<18:
 else:
     print("age is grater than 18")
 print("======================================")
+try:
+    p=10
+    q=0
+    print("division=",p/q)
+except ZeroDivisionError:
+    print("Division =",p/2)
+finally:
+    t=10
+    s=20
+    print("Finally Block code executed")
+    print("Addition =",t+s)

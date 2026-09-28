@@ -58,19 +58,6 @@ print(L5)
 L6=L1.copy()
 print(L6)
 
-print("==Contain==")
-
-print(L5.__contains__(99))
-
-print("----for loop-------")
-
-for i in range(13):
-    print(L5[i])
-print("----for each loop-------")
-
-for i in L5:
-    print(i)
-
 
 
 
