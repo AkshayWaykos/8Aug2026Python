@@ -8,7 +8,7 @@ s5="my name is abc"
 s6="abcaba"
 print(len(s1))                       #s1.length()
 print(s1.upper())                    #s1.toUpperCase()
-print(s1.lower())                    #s1.toLowerCase()
+print(s2.lower())                    #s1.toLowerCase()
 print("--------")
 print(s2==s3)                        #s2.equals(s3)
 print(s2.__eq__(s3))                 #alternate approach
