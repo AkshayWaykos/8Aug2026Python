@@ -2,9 +2,9 @@ print("===Method Overriding with Single Level Inheritance=====")
 
 class Father:
     def car(self):
-        print("Car =Nano")
+        print("Car = Nano")
     def home(self):
-        print("Home =1 BHK")
+        print("Home = 1 BHK")
     def money(self):
         print("Money = 2L")
 class son(Father):
